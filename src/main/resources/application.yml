@@ -1,0 +1,21 @@
+server:
+  port: 8090
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: test
+server:
+  port: 9000
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: dev
+server:
+  port: 8081
+
